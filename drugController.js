@@ -15,7 +15,7 @@ const addDrug = async (req, res) => {
 
 const updateDrug = async (req, res) => {
     try {
-        const { drugId, name, manufacturer, price } = req.body;
+        const { drugId, name, mannufacturer, price } = req.body;
 
         // Interact with Fabric service to update the drug on the blockchain
         const result = await fabricService.updateDrug(drugId, name, manufacturer, price);
