@@ -10,7 +10,7 @@
             }
         }
     },
-    "organizations": {
+    "orgganizations": {
         "Org1": {
             "mspid": "Org1MSP",
             "peers": ["peer0.org1.example.com"],
